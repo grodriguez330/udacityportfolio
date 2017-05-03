@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
 
@@ -20,10 +20,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel1">Project 1</h4>
+        <h4 class="modal-title" id="myModalLabel1">Movie Trailer Website</h4>
       </div>
       <div class="modal-body">
-        This is a description of my first project.
+        This project was created using a mix of Python and HTML/CSS. When you run the entertainment_center.py file, it will automatically generate a website and open it in a new tab on your machine. The website has a list of my six favorite movies, and has interactions that allow you to click on a movie portrait, and then view its YouTube video. 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -73,22 +73,24 @@
 <!--Page Content -->
         <div class="container">
             <div class="row">
+              <header>
                 <div class="col-md-6">
                     <img  class="img-responsive title-logo" src="http://placehold.it/100x100" alt="Logo">
                 </div>
 
-                <div class="col-md-6 text-right text-uppercase" id="#header">
-                <h1 id = "#headerName" class ="text-thin title-super">Gabriel Rodriguez</h1>
-                <h4 id = "#ninja">Front End Ninja</h4>
+                  <div class="col-md-6 text-right text-uppercase" id="#header">
+                    <h1 id = "#headerName" class ="text-thin title-super">Gabriel Rodriguez</h1>
+                    <h4 id = "#ninja">Front End Ninja</h4>
                 </div>
+              </header>
             </div>
 
             <div class="row">
                 <div class ="col-md-12">
                     <hr class="star-dark">
-                   </hr>
+
                    <div class="jumbotron">
-        <h1 style="text-align: center">Aspiring Full Stack Web Developer</h1>
+        <h1>Aspiring Full Stack Web Developer</h1>
         <p class="lead">Welcome to my Portfolio. I will be updating this page as I go through the Full Stack Web Developer Nanodegree with the projects I complete to showcase the skills I have obtained. I am welcome to all constructive critiscm to improve my skills.</p>
            </div>
                     <img class="img-responsive center-block" id="#mainPic" src="imgs/code2.png" alt = "MacBook Desk Setup">
@@ -98,11 +100,12 @@
             </hr>
             <div class="row">
                 <div class="col-md-12">
-                <h1 style="text-align: center">Featured Work</h1>
+                <h1>Featured Work</h1>
                 </div>
                 </div>
                 <!--Projects-->
             <div class="row text-center">
+              <main>
                 <div class="col-md-4">
                     <img class="img-responsive btn btn-primary" src= "imgs/movieProject.png" data-toggle="modal" data-target="#project1" alt = "Movie Trailer Project Website">
                       <h3 class="text-uppercase">Movie Trailer Project</h3>
@@ -119,10 +122,13 @@
                     <h3 class="text-uppercase">Appify</h3>
                     <p>This is my third project.</p>
                     </div>
-
-                    <footer><p>Created by Gabriel Rodriguez</p></footer>
-                </div>
-
-            </div>
-        </body>
-</html>
+                  </main>
+                    <footer class="row">
+                      <div class="col-md-12">
+                        <p>Created by Gabriel Rodriguez</p>
+                        </div>
+                      </footer>
+                    </div>
+                  </div>
+                </body>
+              </html>
